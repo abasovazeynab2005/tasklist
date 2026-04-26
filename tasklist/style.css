@@ -36,7 +36,7 @@ h1 {
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: 800;
-    text-align: center;
+    text-align: center; 
 }
 
 /* Кнопка сортировки  */
@@ -78,6 +78,7 @@ h1 {
 }
 
 .task-text {
+    flex-grow: 1;
     text-align: left;
     font-size: 16px;
     color: #333;
@@ -85,6 +86,7 @@ h1 {
 }
 
 .task-input {
+    flex-grow: 1;
     border: none;
     outline: none;
     font-size: 16px;
